@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;900&display=swap');
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.to-do_list {
+    width: 26vw;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+   
+}
+.header {
+    width: inherit;
+    height: 28px;
+    background-color: #FFDC40;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+.sort {
+    width: 2vw;
+    display: block;
+    margin-left: 22vw;
+    margin-bottom: 10px;
+}
+.list-wrapper {
+    width: 22vw;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-left: 2vw;
+    padding: 0;
+    list-style-type: none;
+}
+.input-wrapper , .new-input-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    /* cursor: move; */
+}
+.do-input , .new-do {
+    width: 18vw;
+    height: 35px;
+    border: none;
+    border-radius: inherit;
+}
+
+.do-input:focus {
+    border-radius: 10px;
+}
+
+.delete-icon , .new-delete{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.add-btn {
+    width: 12vw;
+    margin-left: 7vw;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
